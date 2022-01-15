@@ -1,0 +1,55 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    display: block;
+    height: 100%;
+}
+
+.first-section {
+    background: linear-gradient(180deg, #E4EFFF 0%, rgba(228, 239, 255, 0.6) 92.51%, rgba(228, 239, 255, 0) 100%);
+}
+
+.stretch {
+    margin: 0;
+}
+
+.parent-container {
+    display: table;
+    width: 100%;
+}
+
+.container.stretch {
+    display: table-cell;
+}
+
+.content {
+    width: 100%;
+}
+
+.logo {
+    font-family: 'DM Sans', sans-serif;
+    color: #193766;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.icons  >   a   {
+    color: rgba(0, 21, 51, 0.6);
+    font-size: 14px;
+}
+
+.download-button    {
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 25px;
+    color: #3B82F6;
+}
+
+.header-active  {
+    font-weight: 600;
+}
