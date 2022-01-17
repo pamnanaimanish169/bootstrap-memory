@@ -35,12 +35,12 @@ body {
     font-size: 14px;
 }
 
-.icons  >   a   {
+.icons>a {
     color: rgba(0, 21, 51, 0.6);
     font-size: 14px;
 }
 
-.download-button    {
+.download-button {
     background: #FFFFFF;
     border-radius: 6px;
     border: none;
@@ -50,23 +50,53 @@ body {
     color: #3B82F6;
 }
 
-.header-active  {
+.header-active {
     font-weight: 600;
 }
 
-@media screen and (min-width:320px) and (max-width:767px)   {
+.heading {
+    font-size: 64px;
+}
+
+.column-content {
+    color: #697B98;
+    font-size: 22px;
+}
+
+.download-now {
+    background: #3B82F6;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 6px;
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.see-in-action  {
+    background: #C6DBFF;
+    border-radius: 6px;
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
     .header {
         flex-direction: column;
     }
 
-    .icons  {
+    .icons {
         display: flex;
         flex-direction: column;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
-    .icons  >   a   {
+    .icons>a {
         padding: 5px;
     }
 }
