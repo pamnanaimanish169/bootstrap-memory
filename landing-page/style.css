@@ -53,3 +53,20 @@ body {
 .header-active  {
     font-weight: 600;
 }
+
+@media screen and (min-width:320px) and (max-width:767px)   {
+    .header {
+        flex-direction: column;
+    }
+
+    .icons  {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .icons  >   a   {
+        padding: 5px;
+    }
+}
