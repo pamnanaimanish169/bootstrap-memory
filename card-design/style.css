@@ -120,3 +120,10 @@ ul {
 .button-outisde {
     height: 40px !important;
 }
+
+
+@media screen and (max-width:768px) {
+    .custom-class   {
+        width: 50%;
+    }
+}
