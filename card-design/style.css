@@ -1,8 +1,14 @@
+body {
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif !important;
+}
+
 /* Style the tab */
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    border-radius: 50px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -18,18 +24,99 @@
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
+    background: #B19B51;
+    background: -webkit-linear-gradient(top left, #B19B51, #A020F0);
+    background: -moz-linear-gradient(top left, #B19B51, #A020F0);
+    background: linear-gradient(to bottom right, #B19B51, #A020F0);
+    color: white;
+    border: none;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background: #B19B51;
+    background: -webkit-linear-gradient(top left, #B19B51, #A020F0);
+    background: -moz-linear-gradient(top left, #B19B51, #A020F0);
+    background: linear-gradient(to bottom right, #B19B51, #A020F0);
+    color: white;
+    border: none;
+}
+
+.tablinks {
+    border: none !important;
 }
 
 /* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-top: none;
+}
+
+
+.custom-class {
+    width: 25%;
+    margin: 0 auto;
+    border: none !important;
+}
+
+.button:focus {
+    outline: none !important;
+}
+
+.tab button {
+    outline: none !important;
+    border-radius: 50px;
+}
+
+.tab button.active {
+    outline: none !important;
+    border-radius: 50px;
+}
+
+.remove-focus {
+    outline: none !important;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.content {
+    text-align: center;
+}
+
+.amount {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.content-text {
+    font-weight: 500;
+}
+
+.fa.fa-check {
+    color: #8d55b0;
+    font-size: small;
+}
+
+.choose-a-plan {
+    background: #B19B51;
+    background: -webkit-linear-gradient(top left, #B19B51, #A020F0);
+    background: -moz-linear-gradient(top left, #B19B51, #A020F0);
+    background: linear-gradient(to bottom right, #B19B51, #A020F0);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    ;
+}
+
+.button-outisde {
+    height: 40px !important;
 }
