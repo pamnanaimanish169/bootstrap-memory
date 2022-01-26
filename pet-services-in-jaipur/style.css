@@ -3,7 +3,7 @@
 }
 
 .content    {
-    height: 968px;
+    /* height: 968px; */
 }
 
 .custom-image   {
@@ -29,3 +29,11 @@
 .custom-image-dog   {
     text-align: center;
 }
+
+/* Media Queries START */
+@media screen and (max-width : 768px) {
+    .tablet-query   {
+        flex-direction: column;
+    }
+}
+/* Media Queries END */
