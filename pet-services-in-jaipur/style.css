@@ -1,0 +1,31 @@
+.heading    {
+    text-align: center;
+}
+
+.content    {
+    height: 968px;
+}
+
+.custom-image   {
+    background: #fff;
+    padding: 16px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 15px 5px grey;
+    width: 125%;
+}
+
+.custom-width   {
+    height: 600px;
+}
+
+.custom-width-container {
+    max-width: 1920px !important;
+}
+
+.custom-font    {
+    font-size: 14px !important;
+}
+
+.custom-image-dog   {
+    text-align: center;
+}
