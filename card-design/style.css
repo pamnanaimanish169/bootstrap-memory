@@ -3,6 +3,13 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
+.container  {
+    background: #B19B51;
+    background: -webkit-linear-gradient(top left, #B19B51, #A020F0);
+    background: -moz-linear-gradient(top left, #B19B51, #A020F0);
+    background: linear-gradient(to bottom right, #B19B51, #A020F0);
+}
+
 /* Style the tab */
 .tab {
     overflow: hidden;
@@ -57,7 +64,7 @@ body {
 
 
 .custom-class {
-    width: 25%;
+    width: 31%;
     margin: 0 auto;
     border: none !important;
 }
